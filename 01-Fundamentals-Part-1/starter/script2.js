@@ -1,5 +1,5 @@
 let country = "Poland"
-let continent = "Europ"
+let continent = "Europe"
 let population = "38,000,000"
 
 console.log(country)
