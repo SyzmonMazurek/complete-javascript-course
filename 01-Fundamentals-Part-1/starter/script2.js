@@ -1,6 +1,6 @@
 let country = "Poland";
 let continent = "Europe";
-let population = 38000000;
+let population = 38;
 
 console.log(country);
 console.log(continent);
