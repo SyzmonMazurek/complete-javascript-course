@@ -9,6 +9,8 @@ let firstName = "Jonas";
 console.log(firstName)
 */
 
+/*
+// Math operators
 const now = 2037;
 const ageJonas = now - 1991;
 const ageSarah = now -2018;
@@ -22,6 +24,7 @@ const lastName = "Schmedtmann";
 console.log(firstName + " " + lastName);
 // " " - create space in 
 
+// Assignment Operators
 let x = 10 + 5; // x = 15
 x += 10; // x = x + 10 = 25
 x *= 4; // x = 25 * 4 = 100
@@ -29,6 +32,26 @@ x++; // add 1 to x
 x--; // deduce 1 from x
 console.log(x);
 
+//Comparison operators
+console.log(ageJonas > ageSarah); // >, <, >=, <=
+console.log(ageSarah >= 18);
+
+const isFullAge = ageSarah >= 18;
+console.log(now - 1991 > now - 2018);
+*/
+
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSarah = now -2018;
+
+console.log(now - 1991 > now - 2018);
 
 
+// console.log(25-10-5);
 
+let x, y;
+x = y = 25-10-5 // x = y = 10
+console.log(x, y);
+
+const averageAge = (ageJonas + ageSarah) / 2
+console.log(ageJonas, ageSarah, averageAge);
