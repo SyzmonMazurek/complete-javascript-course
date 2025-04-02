@@ -24,7 +24,7 @@ console.log(firstName + " " + lastName);
 
 let x = 10 + 5; // x = 15
 x += 10; // x = x + 10 = 25
-x * 4; // x = 25 * 4 =100
+x *= 4; // x = 25 * 4 = 100
 x++; // add 1 to x
 x--; // deduce 1 from x
 console.log(x);
