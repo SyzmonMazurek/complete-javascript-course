@@ -71,3 +71,17 @@ console.log(markHigherBMI);
 const description = 
 `${country} is in ${continent}, and its ${population} milion people speak ${language}`;
 */
+
+
+const country = "Poland";
+const continent = "Europe";
+let population = 38;
+const isIsland = false;
+language = "Polish";
+
+if(population > 33) {
+    console.log(`${country}'s population is ${population - 33} million above average`);
+} else {
+    console.log(`${country}"'"s population is ${33 - population} million below average`);
+}
+
