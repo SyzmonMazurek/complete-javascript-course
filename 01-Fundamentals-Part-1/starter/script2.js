@@ -24,6 +24,7 @@ const isIsland = false;
 language = "Polish";
 */
 
+/*
 const country = "Poland";
 const continent = "Europe";
 let population = 38;
@@ -46,4 +47,23 @@ population +
 " milion people speak " +
 language;
 
-console.log(description)
+console.log(description);
+*/
+
+/* 1st assesment
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 95;
+const heightJohn = 1.88;
+
+let BMIMark = massMark / (heightMark * heightMark);
+let BMIJohn = massJohn / (heightJohn * heightJohn);
+
+console.log("BMIMark ", BMIMark);
+console.log("BMIJohn ", BMIJohn);
+
+let markHigherBMI = (BMIMark > BMIJohn);
+
+console.log(markHigherBMI);
+
+*/
