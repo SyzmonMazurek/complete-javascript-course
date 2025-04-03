@@ -67,3 +67,7 @@ let markHigherBMI = (BMIMark > BMIJohn);
 console.log(markHigherBMI);
 
 */
+/*
+const description = 
+`${country} is in ${continent}, and its ${population} milion people speak ${language}`;
+*/
